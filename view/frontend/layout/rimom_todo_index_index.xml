@@ -7,5 +7,8 @@
                 <argument translate="true" name="title" xsi:type="string">My Todo List</argument>
             </action>
         </referenceBlock>
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" name="rimom.todo.block.list" template="Rimom_Todo::todo.phtml" />
+        </referenceContainer>
     </body>
 </page>
