@@ -10,6 +10,12 @@ define(['uiComponent'], function (Component) {
                 {label: "Task 4"},
                 {label: "Task 5"}
             ]
+        },
+        
+        initObservable: function () {
+            this._super().observe(['tasks']);
+
+            return this;
         }
     });
 });
